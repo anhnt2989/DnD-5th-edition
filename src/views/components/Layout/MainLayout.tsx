@@ -15,10 +15,10 @@ import {
   TMenuItem
 } from 'AppModels'
 
-import { Routes } from '@app/constant'
-import LogoSrc from '@app/asset/images/logo.png'
-import FavouriteContext from '@app/context/FavouriteContext'
-import SpellItem from '@components/Spell/SpellItem'
+import { Routes } from 'app/constant'
+import LogoSrc from 'app/asset/images/logo.png'
+import FavouriteContext from 'app/context/FavouriteContext'
+import SpellItem from 'views/components/Spell/SpellItem'
 
 import styles from './MainLayout.module.scss'
 

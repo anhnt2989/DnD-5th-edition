@@ -5,8 +5,8 @@ import { DeleteOutlined } from '@ant-design/icons'
 
 import { TSpellListRecord } from 'AppModels'
 
-import { Routes } from '@app/constant'
-import FavouriteContext from '@app/context/FavouriteContext'
+import { Routes } from 'app/constant'
+import FavouriteContext from 'app/context/FavouriteContext'
 
 import styles from './SpellItem.module.scss'
 

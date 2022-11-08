@@ -6,7 +6,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import "antd/dist/antd.css"
 import 'react-toastify/dist/ReactToastify.css'
 
-import Provider from '../src/app/context/FavouriteContext/Provider'
+import Provider from 'app/context/FavouriteContext/Provider'
 
 import './index.css'
 import App from './App'

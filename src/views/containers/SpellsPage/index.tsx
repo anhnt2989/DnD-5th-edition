@@ -18,9 +18,9 @@ import {
   TSpellColumn
 } from 'AppModels'
 
-import { getSpellList } from '@app/service/spell'
-import { Routes } from '@app/constant'
-import FavouriteContext from '@app/context/FavouriteContext'
+import { getSpellList } from 'app/service/spell'
+import { Routes } from 'app/constant'
+import FavouriteContext from 'app/context/FavouriteContext'
 
 import styles from './SpellsPage.module.scss'
 

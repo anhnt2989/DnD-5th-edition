@@ -26,7 +26,7 @@ import isBoolean from 'lodash/isBoolean'
 
 import { TRecordElement, TSpellItemProps } from 'AppModels'
 
-import { depthOf } from '@utils/helperFn'
+import { depthOf } from 'utils/helperFn'
 
 import styles from './SpellDetail.module.scss'
 

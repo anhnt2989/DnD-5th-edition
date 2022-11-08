@@ -2,7 +2,7 @@ import React, { Suspense } from 'react'
 import { useRoutes } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 
-import { AppRoutes } from '@app/config'
+import { AppRoutes } from 'app/config'
 
 function App() {
   const elements = useRoutes(AppRoutes)
