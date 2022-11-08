@@ -2,6 +2,8 @@
   "name": "dnd-5th-edition",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000",
+  "homepage": ".",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
