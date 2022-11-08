@@ -7,9 +7,9 @@ import { HeartTwoTone } from '@ant-design/icons'
 
 import { TSpellDetailProps } from 'AppModels'
 
-import { getSpellDetail } from '@app/service/spell'
-import SpellDetail from '@components/Spell/SpellDetail'
-import FavouriteContext from '@app/context/FavouriteContext'
+import { getSpellDetail } from 'app/service/spell'
+import SpellDetail from 'views/components/Spell/SpellDetail'
+import FavouriteContext from 'app/context/FavouriteContext'
 
 import styles from './Detail.module.scss'
 

@@ -1,6 +1,6 @@
 import { AxiosRequestConfig, Method } from 'axios';
 
-import { apiConfigs } from '@app/config';
+import { apiConfigs } from 'app/config';
 
 import axios from './baseRequest';
 
