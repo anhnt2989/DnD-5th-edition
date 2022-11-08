@@ -1,13 +1,13 @@
 import React from 'react'
 import { TAppRoute } from "AppModels"
 
-import { Routes } from "@app/constant"
-import PageNotFound from '@containers/PageNotFound'
-import LandingPage from '@containers/LandingPage'
-import { MainLayout } from '@components/Layout'
+import { Routes } from "app/constant"
+import PageNotFound from 'views/containers/PageNotFound'
+import LandingPage from 'views/containers/LandingPage'
+import { MainLayout } from 'views/components/Layout'
 
-const SpellsPageLazy = React.lazy(() => import('@containers/SpellsPage'))
-const SpellDetailPageLazy = React.lazy(() => import('@containers/SpellsPage/pages/Detail'))
+const SpellsPageLazy = React.lazy(() => import('views/containers/SpellsPage'))
+const SpellDetailPageLazy = React.lazy(() => import('views/containers/SpellsPage/pages/Detail'))
 
 const AppRoutes: Array<TAppRoute> = [
   {
