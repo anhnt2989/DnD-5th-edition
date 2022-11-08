@@ -1,0 +1,23 @@
+.wrapper {
+  text-align: left;
+  height: 100%;
+  .logoSection {
+    padding: 1rem;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img {
+      width: 70px;
+      object-fit: cover;
+    }
+  }
+  .fnSection {
+    text-align: center;
+  }
+  .content {
+    padding: 1.5rem;
+    max-height: 100vh;
+    overflow: scroll;
+  }
+}
