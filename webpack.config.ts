@@ -96,7 +96,7 @@ if (!isProd) {
   config.devServer = {
     static: path.join(__dirname, 'build'),
     historyApiFallback: true,
-    port: 3002,
+    port: 5000,
     open: true,
     hot: true,
   }
