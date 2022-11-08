@@ -1,0 +1,33 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "react-hooks"],
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "react/prop-types": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        ["@app", "./src/app"],
+        ["@components", "./src/views/components"],
+        ["@containers", "./src/views/pages"],
+        ["@utils", "./src/utils"],
+        ["@hooks", "./src/hooks"]
+      ]
+    },
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  }
+}
